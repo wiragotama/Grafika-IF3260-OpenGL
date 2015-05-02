@@ -15,12 +15,16 @@ GLfloat gfDeltaX = .0001;
 void Draw() {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0,1.0,1.0);
+
+	//pala
 	glBegin(GL_POLYGON);
 		glVertex3f(0.05,0.93,0.0);
 		glVertex3f(0.18,0.93,0.0);
 		glVertex3f(0.18,0.85,0.0);
 		glVertex3f(0.05,0.85,0.0);
 	glEnd();
+
+	//leher
 	glColor3f(1.0,1.0,0.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.11,0.85,0.0);
@@ -28,6 +32,8 @@ void Draw() {
 		glVertex3f(0.18,0.46,0.0);
 		glVertex3f(0.11,0.46,0.0);
 	glEnd();
+
+	//badan
 	glColor3f(0.0,1.0,0.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.18,0.67,0.0);
@@ -35,6 +41,8 @@ void Draw() {
 		glVertex3f(0.73,0.46,0.0);
 		glVertex3f(0.18,0.46,0.0);
 	glEnd();
+
+	//kaki
 	glColor3f(0.0,0.0,1.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.43,0.46,0.0);
@@ -49,6 +57,27 @@ void Draw() {
 		glVertex3f(0.28,0.36,0.0);
 	glEnd();
 
+	//ekor
+	glColor3f(0.5,0.5,0.5);
+	glBegin(GL_POLYGON);
+		glVertex3f(0.73,0.57,0.0);
+		glVertex3f(0.82,0.57,0.0);
+		glVertex3f(0.82,0.6,0.0);
+		glVertex3f(0.73,0.6,0.0);
+	glEnd();
+	glBegin(GL_POLYGON);
+		glVertex3f(0.82,0.6,0.0);
+		glVertex3f(0.86,0.6,0.0);
+		glVertex3f(0.86,0.39,0.0);
+		glVertex3f(0.82,0.39,0.0);
+	glEnd();
+	glBegin(GL_POLYGON);
+		glVertex3f(0.82,0.39,0.0);
+		glVertex3f(0.95,0.39,0.0);
+		glVertex3f(0.95,0.36,0.0);
+		glVertex3f(0.82,0.36,0.0);
+	glEnd();
+
 	//sayap
 	glColor3f(1.0,0.0,0.0);
 	glBegin(GL_POLYGON);
@@ -59,12 +88,12 @@ void Draw() {
 		glVertex3f(0.72,PosY4,0.0);
 		glVertex3f(0.49,0.67,0.0);
 	glEnd();
-	glFlush();
+	glutSwapBuffers();
 	PosY1 -= 2*gfDeltaX;
 	PosY2 -= 2*gfDeltaX;
 	PosY3 -= gfDeltaX;
 	PosY4 -= gfDeltaX;
-	if (PosY2 >= 1.0 || PosY2 <= 0.0) {
+	if (PosY2 >= 1.0 || PosY1 <= 0.0) {
 		gfDeltaX = -gfDeltaX;
 	}
 	glutPostRedisplay();
@@ -79,7 +108,7 @@ void Initialize() {
 
 int main(int iArgc, char** cppArgv) {
 	glutInit(&iArgc, cppArgv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowSize(640,480);
 	glutInitWindowPosition(200,0);
 	glutCreateWindow("Cimbel Extension");

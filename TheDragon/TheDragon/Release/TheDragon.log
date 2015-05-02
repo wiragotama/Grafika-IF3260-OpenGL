@@ -1,36 +1,48 @@
-﻿Build started 02/05/2015 19:53:52.
+﻿Build started 02/05/2015 20:30:44.
      1>Project "E:\semester 6\Grafika\Sesudah UTS\Grafika-IF3260-OpenGL\TheDragon\TheDragon\TheDragon.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          E:\applications\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\TheDragon.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>main.cpp(11): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
      1>main.cpp(12): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(19): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(20): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(21): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(22): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(26): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(27): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(28): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(29): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(23): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(24): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(30): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(31): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(32): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(33): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(34): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(35): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(36): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(40): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(43): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(47): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(48): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(50): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(54): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
      1>main.cpp(57): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(59): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
-     1>main.cpp(60): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(64): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(65): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(66): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(69): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(70): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(71): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(72): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(75): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(76): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(77): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(78): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(84): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(85): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(86): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(87): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(88): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>main.cpp(89): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
        Link:
          E:\applications\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\semester 6\Grafika\Sesudah UTS\Grafika-IF3260-OpenGL\TheDragon\Release\TheDragon.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib glut32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\semester 6\Grafika\Sesudah UTS\Grafika-IF3260-OpenGL\TheDragon\Release\TheDragon.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\semester 6\Grafika\Sesudah UTS\Grafika-IF3260-OpenGL\TheDragon\Release\TheDragon.lib" /MACHINE:X86 /SAFESEH:NO Release\stdafx.obj
          Release\main.obj
@@ -41,4 +53,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.36
+Time Elapsed 00:00:01.37
