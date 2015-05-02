@@ -21,18 +21,21 @@ void Draw() {
 		glVertex3f(0.18,0.85,0.0);
 		glVertex3f(0.05,0.85,0.0);
 	glEnd();
+	glColor3f(1.0,1.0,0.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.11,0.85,0.0);
 		glVertex3f(0.18,0.85,0.0);
 		glVertex3f(0.18,0.46,0.0);
 		glVertex3f(0.11,0.46,0.0);
 	glEnd();
+	glColor3f(0.0,1.0,0.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.18,0.67,0.0);
 		glVertex3f(0.73,0.67,0.0);
 		glVertex3f(0.73,0.46,0.0);
 		glVertex3f(0.18,0.46,0.0);
 	glEnd();
+	glColor3f(0.0,0.0,1.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.43,0.46,0.0);
 		glVertex3f(0.48,0.46,0.0);
@@ -47,6 +50,7 @@ void Draw() {
 	glEnd();
 
 	//sayap
+	glColor3f(1.0,0.0,0.0);
 	glBegin(GL_POLYGON);
 		glVertex3f(0.27,0.67,0.0);
 		glVertex3f(0.47,PosY1,0.0);
@@ -56,16 +60,11 @@ void Draw() {
 		glVertex3f(0.49,0.67,0.0);
 	glEnd();
 	glFlush();
-	gfPosX += gfDeltaX;
-	while(PosY2 < PosY3 ) {
-		PosY1 -= gfDeltaX;
-		PosY2 -= gfDeltaX;
-	}
-	PosY1 -= gfDeltaX;
-	PosY2 -= gfDeltaX;
+	PosY1 -= 2*gfDeltaX;
+	PosY2 -= 2*gfDeltaX;
 	PosY3 -= gfDeltaX;
 	PosY4 -= gfDeltaX;
-	if (PosY2 >= 1.0 || PosY4 <= 0.0) {
+	if (PosY2 >= 1.0 || PosY2 <= 0.0) {
 		gfDeltaX = -gfDeltaX;
 	}
 	glutPostRedisplay();
